@@ -8,11 +8,13 @@ NANIGameEngine/
 │   ├── imgui/          # dear-imgui库
 │   └── glad/           # GLAD 加载器
 ├── EngineCore/         # 引擎核心系统
+│   ├── include/         # 存放头文件
 │   ├── Core/           # 基础功能 (日志, 配置, 事件系统)
 │   ├── ECS/            # 实体组件系统实现
 │   ├── Resources/      # 资源管理系统
 │   └── Utils/          # 工具类 (文件操作, 字符串处理)
 ├── Graphics/           # 图形模块
+│   ├── include/         # 存放头文件
 │   ├── OpenGL/         # OpenGL实现
 │   │   ├── Renderer.cpp
 │   │   ├── Shader.cpp
@@ -20,26 +22,32 @@ NANIGameEngine/
 │   ├── RenderAPI.h     # 抽象渲染接口
 │   └── Camera.h        # 摄像机系统
 ├── Physics/            # 物理模块
+│   ├── include/         # 存放头文件
 │   ├── PhysicsWorld.h  # 物理世界封装
 │   └── RigidBody.h     # 刚体组件
 ├── Editor/             # 编辑器实现
+│   ├── include/         # 存放头文件
 │   ├── EditorLayer.cpp # 主编辑器层
 │   ├── Viewport.cpp    # 3D视口窗口
 │   ├── Inspector.cpp   # 属性检查器
 │   └── ResourceBrowser.cpp # 资源浏览器
 ├── Script/             # 脚本系统
+│   ├── include/         # 存放头文件
 │   ├── ScriptEngine/   # 脚本引擎核心
 │   ├── Bindings/       # C++绑定生成
 │   └── Components/     # 脚本组件
 ├── Runtime/            # 运行时模块
+│   ├── include/         # 存放头文件
 │   ├── Application.cpp # 游戏运行时入口
 │   └── GameLoop.cpp    # 游戏主循环
 ├── Plugs/              # 插件接口
-│   └── IPlugin.h       # 插件接口定义
+│   ├── include/         # 存放头文件
+│   │   └── IPlugin.h    # 插件接口定义
 ├── res/                # 引擎资源
 │   ├── shaders/        # 内置着色器
 │   ├── icons/          # 编辑器图标
 │   └── config/         # 默认配置文件
 └── src/                # 主程序入口
+    ├── include/         # 存放头文件
     ├── main.cpp        # 启动入口
     └── EngineApp.cpp   # 引擎应用类
