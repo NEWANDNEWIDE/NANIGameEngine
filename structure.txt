@@ -1,5 +1,5 @@
 NANIGameEngine/
-├── ThirdParty/         # 预编译的第三方库 (每个库单独目录)
+├── TP/         # 预编译的第三方库 (每个库单独目录)
 │   ├── assimp/         # - include/, lib/
 │   ├── bullet3/        # - include/, lib/
 │   ├── glfw/           # - include/, lib/
