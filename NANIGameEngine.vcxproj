@@ -159,9 +159,15 @@
     <ClCompile Include="Editor\Inspector.cpp" />
     <ClCompile Include="Editor\ResourceBrowser.cpp" />
     <ClCompile Include="Editor\Viewport.cpp" />
+    <ClCompile Include="Graphics\DirectX\Renderer.cpp" />
+    <ClCompile Include="Graphics\DirectX\Shader.cpp" />
+    <ClCompile Include="Graphics\DirectX\Texture.cpp" />
     <ClCompile Include="Graphics\OpenGL\Renderer.cpp" />
     <ClCompile Include="Graphics\OpenGL\Shader.cpp" />
     <ClCompile Include="Graphics\OpenGL\Texture.cpp" />
+    <ClCompile Include="Graphics\Vulkan\Renderer.cpp" />
+    <ClCompile Include="Graphics\Vulkan\Shader.cpp" />
+    <ClCompile Include="Graphics\Vulkan\Texture.cpp" />
     <ClCompile Include="Runtime\Application.cpp" />
     <ClCompile Include="Runtime\GameLoop.cpp" />
     <ClCompile Include="src\EngineApp.cpp" />
