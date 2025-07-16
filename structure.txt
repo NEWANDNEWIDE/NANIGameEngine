@@ -23,8 +23,8 @@ NANIGameEngine/
 │   └── Camera.h        # 摄像机系统
 ├── Physics/            # 物理模块
 │   ├── include/         # 存放头文件
-│   ├── PhysicsWorld.h  # 物理世界封装
-│   └── RigidBody.h     # 刚体组件
+│   │   └──  PhysicsWorld.h  # 物理世界封装
+│   │   └── RigidBody.h     # 刚体组件
 ├── Editor/             # 编辑器实现
 │   ├── include/         # 存放头文件
 │   ├── EditorLayer.cpp # 主编辑器层
